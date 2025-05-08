@@ -3,7 +3,8 @@ name: "Code Scanning - Action"
 on:
   pull_request:
     branches: [main]
-  workflow-dispatch:
+    
+  workflow_dispatch:
 
 jobs:
   CodeQL-Build:
